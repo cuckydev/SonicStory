@@ -1,0 +1,111 @@
+
+#0090
+<MNA<CMU0008<FAI0000<END
+#0091
+<MNA<CMU0008<FAI0001<END
+#0092
+<MNA<CMU0008<FAI0002<END
+#0093
+<MNA<CMU0008<FAI0003<END
+#0094
+<MNA<CMU0008<FAI0004<END
+
+
+
+
+#0100
+<KEY<SOU0011<ANP0100:0000:0002<FAO0004<TRA0039:0094:0033:0009
+
+
+#0200
+<PRI<MSGLong, long ago, there lived a
+witch on this island.<NOD
+She's the one who constructed
+this labyrinth, in order to
+keep us Gaudis penned up.<NOD<END
+#0210
+<PRI<MSGThere is an exit to this maze.
+But the path to it is blocked
+by a huge boulder.<NOD<CLRAnd moving the boulder would
+be just the beginning of your
+trials...<NOD<END
+#0220
+<PRI<FLJ1020:0221<MSGAah... I'm SO hungry for
+Mimiga flesh...<NOD<CLR*sniff sniff*<NOD<CLR
+YOU smell a bit like Mimiga.<NOD<END
+#0221
+<PRI<MSGHa-ha-hah...<NOD<CLRYou're funny.<NOD<END
+#0230
+<PRI<MSGHave you ever seen the outside of
+this island?<NOD<CLRThis island is floating high in
+the skies.<NOD
+As to how it manages to float...<NOD
+That secret lies within this
+maze.<NOD<END
+#0240
+<PRI<FLJ0720:0241
+<MSGThat teleporter over there
+used to be working until
+a little while ago.<NOD
+Of course, it just led
+elsewhere in the labyrinth...<NOD<END
+#0241
+<MSGThe teleporter seems to be
+working now.<NOD<CLROf course, it just leads to
+somewhere else in the labyrinth,
+doesn't it?<NOD<END
+
+
+#0300
+#0301
+<KEY<MNA<CMU0008
+<ANP0310:0001:0000<FAI0004
+<CNP0301:0112:0000<WAI0100
+<ANP0310:0000:0000
+<MYD0000<DNP0301<SMC<END
+#0310
+<KEY<FLJ0720:0311
+<KEY<MSGA teleporter.<NOD<CLRIt has no power.<NOD<END
+#0311
+<CNP0300:0111:0002<HMC<WAI0060<ANP0310:0001:0000
+<WAI0100<FAO0004<TRA0045:0301:0002:0053
+
+
+#0400
+<FLJ0341:0401
+<FLJ0723:0410
+<FL+0723
+<EVE0401
+#0401
+<FLJ0722:0410<KEY<MSGHey there.<NOD<CLRThis is the Labyrinth Shop!<NOD
+But, sad to say, we got
+burgled a while back,<NOD
+and there's nothing to sell
+right now.<NOD
+Sorry 'bout that...<NOD<FLJ0341:0404<END
+#0404
+<KEY<MSG
+*sigh*<NOD<CLRI have something,<WAI0040
+but it'll cost ya.<NOD<CLR<GIT1038I've got a =Whimiscal Star=,
+I'll sell it to you for 40
+rings.<BUY0040:0405:0406<CMU0010<FL+0722<IT+0038<CLR
+Got the =Whimsical Star=!<WAI0160<EQ+0128<NOD<RMU<GIT0000<CLRJust a decoration, I'm afraid.<NOD
+At least, to my knowledge.<END
+#0405
+<CLR<KEY<MSGLooks like you don't have enough..<NOD
+But be sure to come back when
+you do.<NOD<END
+#0406
+<CLR<KEY<MSG
+Alright, come again!<NOD<END
+#0410
+<KEY<MSGThe one who sealed us up in here
+is a witch named Jenka.<NOD<CLR...But it's not because she hates
+us or anything.<NOD
+We're here in this labyrinth in
+order to protect something.<NOD<CLR...I don't really remember what
+it is anymore, but that's all
+right!<NOD<END
+
+#1000 TEST
+<FL+0341<END
